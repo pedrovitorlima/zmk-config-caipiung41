@@ -33,7 +33,6 @@
 
     default_transform: matrix-transform {
         compatible = "zmk,matrix-transform";
-        label = "default_transform";
         rows = <4>;
         columns = <13>;
 
