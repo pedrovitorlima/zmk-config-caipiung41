@@ -14,10 +14,10 @@
 
         layer0 {
             bindings = <
-    &kp y       &kp Q           &kp W               &kp E                    &kp R        &kp T
-    &kp h        &kp A           &kp S               &kp D                    &kp F        &kp G
-    &kp n        &kp Z           &kp X               &kp C                    &kp V        &kp B
-                                                    &kp m  &kp j  &kp o
+    &kp Y        &kp Q           &kp W                &kp E                    &kp R        &kp T
+    &kp H        &kp A           &kp S                &kp D                    &kp F        &kp G
+    &kp N        &kp Z           &kp X                &kp C                    &kp V        &kp B
+                                                      &kp M                    &kp J        &kp O
             >;
         };
     };
