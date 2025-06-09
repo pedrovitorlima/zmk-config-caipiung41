@@ -14,10 +14,10 @@
 
         layer0 {
             bindings = <
-&kp EQUAL       &kp Q           &kp W               &kp E                    &kp R        &kp T
-&kp LEFT_SHIFT  &kp A           &kp S               &kp D                    &kp F        &kp G
-&kp LEFT_GUI    &kp Z           &kp X               &kp C                    &kp V        &kp B
-                                                    &mt LEFT_CONTROL ESCAPE  &kp ENTER  &mt LALT TAB
+    &kp y       &kp Q           &kp W               &kp E                    &kp R        &kp T
+    &kp h        &kp A           &kp S               &kp D                    &kp F        &kp G
+    &kp n        &kp Z           &kp X               &kp C                    &kp V        &kp B
+                                                    &kp m  &kp j  &kp o
             >;
         };
     };
