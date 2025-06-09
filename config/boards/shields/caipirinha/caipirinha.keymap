@@ -13,9 +13,12 @@
         compatible = "zmk,keymap";
 
         layer0 {
-            bindings = <
-                &kp Y
-            >;
-        };
+                    bindings = <
+        &kp ESCAPE      &kp Q             &kp W                 &kp E                   &kp R        &kp T
+        &kp LEFT_SHIFT  &kp A             &kp S                 &kp D                   &kp F        &kp G
+        &kp LEFT_GUI    &kp Z             &kp X                 &kp C                   &kp V        &kp B
+                                                                &mt LEFT_CONTROL EQUAL  &kp ENTER    &mt LALT TAB
+                    >;
+                };
     };
 };
