@@ -9,11 +9,9 @@
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
-        diode-direction = "row2col";
-
-        col-gpios = <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  /* Col6 */
-
-        row-gpios = <&pro_micro 9  GPIO_ACTIVE_HIGH>;  /* Row4 */
+        diode-direction = "col2row";
+        row-gpios = <&pro_micro 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  /* Row4 */
+        col-gpios = <&pro_micro 19 (GPIO_ACTIVE_HIGH)>;  /* Col6 */
     };
 
     default_transform: matrix-transform {
