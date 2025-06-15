@@ -1,0 +1,6 @@
+if SHIELD_REVIUNG-HARD
+
+config ZMK_KEYBOARD_NAME
+    default "reviung-hard"
+
+endif
