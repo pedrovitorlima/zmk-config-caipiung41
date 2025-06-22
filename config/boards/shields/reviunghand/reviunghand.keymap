@@ -59,10 +59,10 @@
 
         numbers_fs {
             bindings = <
-&kp ESCAPE  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5           &kp N7  &kp N8  &kp N9  &kp MINUS   &kp EQUAL     &kp ESCAPE
-&trans      &kp F6   &kp F7   &kp F8  &kp F9  &kp F10          &kp N4  &kp N5  &kp N6  &kp SLASH   &kp ASTERISK  &kp BACKSPACE
-&trans      &kp F11  &kp F12  &trans  &trans  &trans           &kp N1  &kp N2  &kp N3  &kp PERIOD  &kp COMMA     &kp ENTER
-                              &trans  &trans           &trans          &trans  &trans
+&kp ESCAPE  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5           &kp N7  &kp N8  &kp N9   &kp MINUS   &kp EQUAL     &kp ESCAPE
+&trans      &kp F6   &kp F7   &kp F8  &kp F9  &kp F10          &kp N4  &kp N5  &kp N6   &kp SLASH   &kp ASTERISK  &kp BACKSPACE
+&trans      &kp F11  &kp F12  &trans  &trans  &trans           &kp N1  &kp N2  &kp N3   &kp PERIOD  &kp COMMA     &kp ENTER
+                              &trans  &trans           &trans          &kp N0  &kp TAB
             >;
         };
 
@@ -70,7 +70,7 @@
             bindings = <
 &kp LA(LEFT_GUI)  &kp LS(LEFT_GUI)  &kp LG(LS(NUMBER_4))  &kp LG(LC(LS(NUMBER_4)))  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC          &kp HOME       &kp END   &kp UP    &trans     &trans  &trans
 &trans            &trans            &trans                &hm LALT C_MUTE           &kp C_VOL_DN          &kp C_VOLUME_UP               &kp PAGE_UP    &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans            &trans            &trans                &kp C_PREV                &kp C_PLAY            &kp C_NEXT                    &kp PAGE_DOWN  &trans    &trans    &trans     &trans  &trans
+&trans            &trans            &trans                &kp C_PREV                &kp C_PLAY            &kp C_NEXT                    &kp PAGE_DOWN  &trans    &trans    &trans     &trans  &kp ENTER
                                                           &trans                    &trans                                      &trans                 &trans    &trans
             >;
         };
