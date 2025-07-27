@@ -8,9 +8,9 @@
 
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "default_kscan";
         diode-direction = "col2row";
         wakeup-source;
+        label = "default_kscan";
 
         row-gpios = <&pro_micro 16  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,  /* Row1 */
                     <&pro_micro 10  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, /* Row2 */
